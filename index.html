@@ -1,0 +1,41 @@
+<html>
+
+<head>
+
+    <title>Movies Search</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div>
+        <div class="img-bg">
+            <img src="./background.jpg" />
+        </div>
+        <div class="container">
+            <div class="main" >
+                <h1> Search Movie Name</h1>
+                <select id="selectOpt" onchange="showSelected()">
+                    <option>Select...</option>
+                    <option value="genre">Genre</option>
+                    <option value="title">Title</option>
+               
+                    <input type="text" id="movie" placeholder="Enter movie title">
+                </select>
+                <button id="search">Search</button>
+                <button onclick="sortByTitle()">sort by title</button>
+                <button onclick="sortByGenre()">sort by genre</button>
+                <ul id="results"></ul>
+                <h4 id="warning"></h4>
+                <h2>The count of movies</h2>
+                <ul id="count"></ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="./script.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    padding: 0;
+
+    background-color: rgb(83, 78, 78);
+    color:antiquewhite
+}
+img{
+    /* background-color:black; */
+    height:100vh;
+    position:fixed;
+    width:100vw;
+    opacity: 0.3;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    z-index: 100;
+    text-align: center;
+    left:30%;
+}
+#selectOpt{
+    width:7rem;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+input{
+   font-size: 1.3rem;
+   padding: 5px;
+}
+
+button{
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+#results{
+    text-align: left;
+}
+
+#count{
+    text-align: left;
+}
